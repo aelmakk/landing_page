@@ -48,15 +48,15 @@
 }
 
 .img_placeholder {
-    background-color: #E5E7EB;
+    background-color: #6d747d;
     display: flex;
-    justify-items: center;
+    align-items: center;
     justify-content: center;
     text-align: center;
 }
 
-.img_placeholder div {
-    background-color: antiquewhite;
+.img_text {
+    color: #F9FAF8;
 }
 
 .signup_button ,
