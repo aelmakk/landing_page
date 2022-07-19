@@ -83,3 +83,11 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+
+.footer {
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0px;
+}
