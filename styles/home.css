@@ -12,16 +12,11 @@
 
 .container {
     padding: 82px 0px;
-    width: 100%;
-    height: 100%;
     display: flex;
 }
 
-.header_logo {
-    color: red;
-}
-
-.hero ul li .header_logo {
+.hero .header_logo {
+    text-decoration: none;
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -37,14 +32,16 @@
     color: #E5E7EB;
 }
 
-.hero ul li {
-    display: inline;
-    font-size: 18px;
-    color: #E5E7EB;
+.hero li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
 }
 
-.hero ul li a {
-    padding: 8px;
+.hero ul a {
+    /* padding: 0 20px; */
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .img_placeholder {
@@ -52,7 +49,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
 
 .img_text {
@@ -80,4 +76,10 @@
 .child1,
 .child2 {
     flex: 1;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
