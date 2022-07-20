@@ -118,6 +118,11 @@ nav {
     padding-bottom: 86px;
 }
 
+.img_description {
+    padding-top: 12px;
+    text-align: center;
+}
+
 .footer {
     color: #F9FAF8;
     display: flex;
