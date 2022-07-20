@@ -115,12 +115,30 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 86px;
+    padding-bottom: 64px;
 }
 
 .img_description {
     padding-top: 12px;
     text-align: center;
+}
+
+.quote_container {
+    background-color: #E5E7EB;
+    padding: 8% 20%;
+}
+
+.quote_text {
+    font-size: 36px;
+    /* font-family: italic; */
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote_origin {
+    font-weight: bolder;
+    text-align: end;
 }
 
 .footer {
