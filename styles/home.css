@@ -55,21 +55,23 @@
     color: #F9FAF8;
 }
 
-.signup_button ,
-.call_to_action {
+.signup_button {
     background-color: #3882f6;
 }
 
 .signup_button {
-    padding: 6px 32px;
     color: #E5E7EB;
+    border: 1px solid #3882f6;
+}
+
+button {
+    padding: 6px 32px;
     font-size: 18px;
     font-weight: bolder;
-    border: 1px solid #3882f6;
     border-radius: 6px;
 }
 
-.signup_button:hover {
+button:hover {
     cursor: pointer;
 }
 
@@ -139,6 +141,34 @@ nav {
 .quote_origin {
     font-weight: bolder;
     text-align: end;
+}
+
+.call_toaction_parent_container {
+    padding: 8% 10%;
+}
+
+.call_toaction_child_container {
+    background-color: #3882f6;
+    padding: 56px 128px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call_toaction_child_container button {
+    color: #F9FAF8;
+    background-color: transparent;
+    border: 2px solid #E5E7EB;
+}
+
+.call_toaction_header {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.call_toaction_text {
+    color: #E5E7EB;
 }
 
 .footer {
